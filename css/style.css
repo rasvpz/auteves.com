@@ -92,6 +92,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+    overflow-x: hidden;
 }
 
 body {
@@ -99,6 +100,8 @@ body {
     color: var(--text);
     background: var(--white);
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
@@ -116,7 +119,7 @@ a {
     transition: var(--transition);
 }
 
-img {
+img, video, iframe, svg {
     max-width: 100%;
     height: auto;
 }
@@ -142,11 +145,16 @@ img {
 #preloader {
     position: fixed;
     inset: 0;
+    width: 100%;
+    height: 100dvh;
+    min-height: 100dvh;
+    padding: 24px;
     background: var(--gradient-dark);
     z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 #preloader.loaded {
@@ -154,6 +162,7 @@ img {
     visibility: hidden;
 }
 .loader-wrap {
+    width: min(90vw, 320px);
     text-align: center;
 }
 .logo-loader {
@@ -1659,6 +1668,7 @@ section {
     position: relative;
     cursor: pointer;
     transition: var(--transition);
+    max-width: 100%;
 }
 .gallery-item.large {
     grid-row: span 2;
@@ -2157,8 +2167,8 @@ section {
 /* ============ BACK TO TOP ============ */
 .back-to-top {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 24px;
+    right: 16px;
     width: 50px;
     height: 50px;
     background: var(--gradient-blue);
@@ -2173,6 +2183,23 @@ section {
     transform: translateY(20px);
     transition: var(--transition);
     z-index: 999;
+}
+
+.instagram-embed-wrap,
+.instagram-media,
+.instagram-media iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+}
+
+.hero-visual,
+.contact-form-wrap,
+.map-wrap,
+.map-wrap iframe {
+    max-width: 100%;
+    overflow: hidden;
 }
 .back-to-top.show {
     opacity: 1;
@@ -2290,6 +2317,10 @@ section {
     .footer-legal {
         justify-content: flex-start;
         margin-top: 12px;
+    }
+    .back-to-top {
+        right: 12px;
+        bottom: 16px;
     }
 }
 @media (max-width: 575px) {
