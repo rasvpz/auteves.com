@@ -443,6 +443,38 @@ img, video, iframe, svg {
 .nav-link:hover::after, .nav-link.active::after {
     width: 30px;
 }
+.nav-link.dropdown-toggle::after {
+    position: static;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 6px;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    background: none;
+    transform: none;
+}
+.exam-dropdown {
+    min-width: 180px;
+    padding: 8px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+}
+.exam-dropdown .dropdown-item {
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+}
+.exam-dropdown .dropdown-item:hover,
+.exam-dropdown .dropdown-item:focus {
+    color: var(--primary);
+    background: rgba(0, 194, 255, 0.12);
+}
 
 .navbar-toggler {
     border: none;
@@ -502,6 +534,17 @@ img, video, iframe, svg {
 .mobile-nav a:hover {
     color: var(--accent);
     padding-left: 10px;
+}
+.mobile-submenu {
+    list-style: none;
+    padding: 0 0 8px 18px;
+}
+.mobile-submenu li {
+    border-bottom: 0;
+}
+.mobile-submenu a {
+    padding: 10px 0;
+    font-size: 15px;
 }
 
 /* ============ HERO SECTION ============ */
