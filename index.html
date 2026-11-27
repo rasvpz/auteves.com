@@ -85,7 +85,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Exams</a>
                     <ul class="dropdown-menu exam-dropdown">
-                        <li><a class="dropdown-item" href="#">Hall Tickets</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#hallTicketModal">Hall Tickets</a></li>
                         <li><a class="dropdown-item" href="#">Results</a></li>
                     </ul>
                 </li>
@@ -118,7 +118,7 @@
                     Exams <i class="bi bi-chevron-down float-end"></i>
                 </a>
                 <ul class="collapse mobile-submenu" id="mobileExams">
-                    <li><a href="#">Hall Tickets</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#hallTicketModal">Hall Tickets</a></li>
                     <li><a href="#">Results</a></li>
                 </ul>
             </li>
@@ -1294,6 +1294,38 @@
 <button class="back-to-top" id="backToTop">
     <i class="bi bi-arrow-up"></i>
 </button>
+
+<!-- Hall Ticket Lookup Modal -->
+<div class="modal fade" id="hallTicketModal" tabindex="-1" aria-labelledby="hallTicketModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content hall-ticket-modal">
+            <div class="modal-header">
+                <div>
+                    <p class="hall-ticket-eyebrow mb-1">Auteves Academy</p>
+                    <h5 class="modal-title" id="hallTicketModalTitle">Download Hall Ticket</h5>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="hall-ticket-description">Enter your center code and registration number to find your hall ticket.</p>
+                <form id="hallTicketForm">
+                    <div class="mb-3">
+                        <label for="hallTicketCenterCode" class="form-label">Center Code</label>
+                        <input type="text" class="form-control" id="hallTicketCenterCode" name="centerCode" placeholder="e.g. AUE001" autocomplete="off" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="hallTicketRegNo" class="form-label">Reg No</label>
+                        <input type="text" class="form-control" id="hallTicketRegNo" name="regNo" placeholder="e.g. AUA2026001" autocomplete="off" required>
+                    </div>
+                    <p id="hallTicketMessage" class="hall-ticket-message" role="status" aria-live="polite"></p>
+                    <button type="submit" class="btn btn-hall-ticket w-100">
+                        <i class="bi bi-download me-2"></i>Download Hall Ticket
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Video Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1">

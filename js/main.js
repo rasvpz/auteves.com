@@ -86,6 +86,56 @@
         });
     });
 
+    /* ============ HALL TICKET LOOKUP (DEMO DATA) ============ */
+    const hallTicketForm = document.getElementById('hallTicketForm');
+    if (hallTicketForm) {
+        hallTicketForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const centerCode = hallTicketForm.elements.centerCode.value.trim().toUpperCase();
+            const regNo = hallTicketForm.elements.regNo.value.trim().toUpperCase();
+            const message = document.getElementById('hallTicketMessage');
+            const submitButton = hallTicketForm.querySelector('button[type="submit"]');
+
+            message.textContent = '';
+            message.classList.remove('is-success');
+            submitButton.disabled = true;
+
+            try {
+                const response = await fetch('assets/studentsData/hallTickets.json');
+                if (!response.ok) {
+                    throw new Error(`Hall ticket data request failed (${response.status}).`);
+                }
+
+                const hallTicketData = await response.json();
+                const student = hallTicketData.students.find(record =>
+                    record.centerCode.toUpperCase() === centerCode &&
+                    record.regNo.toUpperCase() === regNo
+                );
+
+                if (!student) {
+                    message.textContent = 'No hall ticket was found for that Center Code and Reg No.';
+                    return;
+                }
+
+                const downloadLink = document.createElement('a');
+                downloadLink.href = student.ticketPath;
+                downloadLink.download = student.fileName;
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                downloadLink.remove();
+
+                message.textContent = 'Your hall ticket download has started.';
+                message.classList.add('is-success');
+            } catch (error) {
+                console.error('Unable to look up hall ticket:', error);
+                message.textContent = 'Unable to load hall ticket data right now. Please try again later.';
+            } finally {
+                submitButton.disabled = false;
+            }
+        });
+    }
+
     /* ============ TYPING EFFECT ============ */
     const typedWords = ['Tomorrow.', 'Careers.', 'Success.', 'Futures.', 'Dreams.'];
     let wordIndex = 0;

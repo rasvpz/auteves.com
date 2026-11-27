@@ -2307,6 +2307,72 @@ section {
 .video-placeholder i:hover {
     transform: scale(1.1);
 }
+.hall-ticket-modal {
+    border: 0;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+}
+.hall-ticket-modal .modal-header {
+    padding: 24px 28px 16px;
+    border-bottom: 1px solid rgba(8, 31, 77, 0.08);
+}
+.hall-ticket-modal .modal-title {
+    color: var(--primary);
+}
+.hall-ticket-modal .btn-close {
+    align-self: flex-start;
+}
+.hall-ticket-modal .modal-body {
+    padding: 20px 28px 28px;
+}
+.hall-ticket-eyebrow {
+    color: var(--secondary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.hall-ticket-description {
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+.hall-ticket-modal .form-label {
+    color: var(--primary);
+    font-weight: 600;
+}
+.hall-ticket-modal .form-control {
+    min-height: 48px;
+    border-color: rgba(8, 31, 77, 0.18);
+    border-radius: 10px;
+}
+.hall-ticket-modal .form-control:focus {
+    border-color: var(--highlight);
+    box-shadow: 0 0 0 0.2rem rgba(0, 194, 255, 0.18);
+}
+.btn-hall-ticket {
+    min-height: 48px;
+    border: 0;
+    border-radius: 10px;
+    background: var(--gradient-blue);
+    color: var(--white);
+    font-weight: 700;
+    transition: var(--transition-fast);
+}
+.btn-hall-ticket:hover,
+.btn-hall-ticket:focus-visible {
+    color: var(--white);
+    box-shadow: 0 8px 20px rgba(0, 96, 180, 0.28);
+    transform: translateY(-1px);
+}
+.hall-ticket-message {
+    min-height: 1.5em;
+    margin-bottom: 12px;
+    color: #b42318;
+    font-size: 14px;
+}
+.hall-ticket-message.is-success {
+    color: #16794b;
+}
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1199px) {
