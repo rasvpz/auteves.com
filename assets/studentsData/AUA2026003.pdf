@@ -16,7 +16,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Length 10321 >>
+<< /Length 10297 >>
 stream
 1 1 1 rg 0 0 612 792 re f
 0.78 0.78 0.78 RG 0.45 w
@@ -204,7 +204,7 @@ BT /F1 8 Tf 0.78 0.08 0.08 rg 1 0 0 1 468 709 Tm (Govt. of India) Tj ET
 0.78 0.08 0.08 rg 48 690 516 2 re f
 BT /F2 14 Tf 0.78 0.08 0.08 rg 1 0 0 1 48 661 Tm (EXAMINATION HALL TICKET) Tj ET
 BT /F2 13 Tf 0.04 0.12 0.30 rg 1 0 0 1 48 638 Tm (Computer Skills Assessment 2026) Tj ET
-BT /F2 8.5 Tf 0.72 0.16 0.12 rg 1 0 0 1 48 618 Tm (Electronically generated sample hall ticket - fictional data) Tj ET
+BT /F2 8.5 Tf 0.72 0.16 0.12 rg 1 0 0 1 48 618 Tm (Electronically generated hall ticket) Tj ET
 0.88 0.93 0.99 rg 424 455 132 150 re f
 0.58 0.75 0.91 RG 424 455 132 150 re S
 0.20 0.39 0.68 rg 469 542 m 469 557 481 569 493 569 c 505 569 517 557 517 542 c 517 527 505 515 493 515 c 481 515 469 527 469 542 c f
@@ -243,5 +243,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-10829
+10805
 %%EOF
