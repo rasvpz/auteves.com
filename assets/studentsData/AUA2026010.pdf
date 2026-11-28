@@ -7,7 +7,7 @@ endobj
 << /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> /ExtGState << /GS1 7 0 R >> >> /Contents 6 0 R >>
 endobj
 4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
@@ -16,9 +16,131 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Length 2475 >>
+<< /Length 6491 >>
 stream
 0.97 0.98 1 rg 0 0 612 792 re f
+q /GS1 gs 0 0 0 rg
+0 0 m 0 72 l 72 72 l h f
+72 0 m 144 0 l 144 72 l h f
+144 0 m 144 72 l 216 72 l h f
+216 0 m 288 0 l 288 72 l h f
+288 0 m 288 72 l 360 72 l h f
+360 0 m 432 0 l 432 72 l h f
+432 0 m 432 72 l 504 72 l h f
+504 0 m 576 0 l 576 72 l h f
+576 0 m 576 72 l 648 72 l h f
+648 0 m 720 0 l 720 72 l h f
+0 72 m 72 72 l 72 144 l h f
+72 72 m 72 144 l 144 144 l h f
+144 72 m 216 72 l 216 144 l h f
+216 72 m 216 144 l 288 144 l h f
+288 72 m 360 72 l 360 144 l h f
+360 72 m 360 144 l 432 144 l h f
+432 72 m 504 72 l 504 144 l h f
+504 72 m 504 144 l 576 144 l h f
+576 72 m 648 72 l 648 144 l h f
+648 72 m 648 144 l 720 144 l h f
+0 144 m 0 216 l 72 216 l h f
+72 144 m 144 144 l 144 216 l h f
+144 144 m 144 216 l 216 216 l h f
+216 144 m 288 144 l 288 216 l h f
+288 144 m 288 216 l 360 216 l h f
+360 144 m 432 144 l 432 216 l h f
+432 144 m 432 216 l 504 216 l h f
+504 144 m 576 144 l 576 216 l h f
+576 144 m 576 216 l 648 216 l h f
+648 144 m 720 144 l 720 216 l h f
+0 216 m 72 216 l 72 288 l h f
+72 216 m 72 288 l 144 288 l h f
+144 216 m 216 216 l 216 288 l h f
+216 216 m 216 288 l 288 288 l h f
+288 216 m 360 216 l 360 288 l h f
+360 216 m 360 288 l 432 288 l h f
+432 216 m 504 216 l 504 288 l h f
+504 216 m 504 288 l 576 288 l h f
+576 216 m 648 216 l 648 288 l h f
+648 216 m 648 288 l 720 288 l h f
+0 288 m 0 360 l 72 360 l h f
+72 288 m 144 288 l 144 360 l h f
+144 288 m 144 360 l 216 360 l h f
+216 288 m 288 288 l 288 360 l h f
+288 288 m 288 360 l 360 360 l h f
+360 288 m 432 288 l 432 360 l h f
+432 288 m 432 360 l 504 360 l h f
+504 288 m 576 288 l 576 360 l h f
+576 288 m 576 360 l 648 360 l h f
+648 288 m 720 288 l 720 360 l h f
+0 360 m 72 360 l 72 432 l h f
+72 360 m 72 432 l 144 432 l h f
+144 360 m 216 360 l 216 432 l h f
+216 360 m 216 432 l 288 432 l h f
+288 360 m 360 360 l 360 432 l h f
+360 360 m 360 432 l 432 432 l h f
+432 360 m 504 360 l 504 432 l h f
+504 360 m 504 432 l 576 432 l h f
+576 360 m 648 360 l 648 432 l h f
+648 360 m 648 432 l 720 432 l h f
+0 432 m 0 504 l 72 504 l h f
+72 432 m 144 432 l 144 504 l h f
+144 432 m 144 504 l 216 504 l h f
+216 432 m 288 432 l 288 504 l h f
+288 432 m 288 504 l 360 504 l h f
+360 432 m 432 432 l 432 504 l h f
+432 432 m 432 504 l 504 504 l h f
+504 432 m 576 432 l 576 504 l h f
+576 432 m 576 504 l 648 504 l h f
+648 432 m 720 432 l 720 504 l h f
+0 504 m 72 504 l 72 576 l h f
+72 504 m 72 576 l 144 576 l h f
+144 504 m 216 504 l 216 576 l h f
+216 504 m 216 576 l 288 576 l h f
+288 504 m 360 504 l 360 576 l h f
+360 504 m 360 576 l 432 576 l h f
+432 504 m 504 504 l 504 576 l h f
+504 504 m 504 576 l 576 576 l h f
+576 504 m 648 504 l 648 576 l h f
+648 504 m 648 576 l 720 576 l h f
+0 576 m 0 648 l 72 648 l h f
+72 576 m 144 576 l 144 648 l h f
+144 576 m 144 648 l 216 648 l h f
+216 576 m 288 576 l 288 648 l h f
+288 576 m 288 648 l 360 648 l h f
+360 576 m 432 576 l 432 648 l h f
+432 576 m 432 648 l 504 648 l h f
+504 576 m 576 576 l 576 648 l h f
+576 576 m 576 648 l 648 648 l h f
+648 576 m 720 576 l 720 648 l h f
+0 648 m 72 648 l 72 720 l h f
+72 648 m 72 720 l 144 720 l h f
+144 648 m 216 648 l 216 720 l h f
+216 648 m 216 720 l 288 720 l h f
+288 648 m 360 648 l 360 720 l h f
+360 648 m 360 720 l 432 720 l h f
+432 648 m 504 648 l 504 720 l h f
+504 648 m 504 720 l 576 720 l h f
+576 648 m 648 648 l 648 720 l h f
+648 648 m 648 720 l 720 720 l h f
+0 720 m 0 792 l 72 792 l h f
+72 720 m 144 720 l 144 792 l h f
+144 720 m 144 792 l 216 792 l h f
+216 720 m 288 720 l 288 792 l h f
+288 720 m 288 792 l 360 792 l h f
+360 720 m 432 720 l 432 792 l h f
+432 720 m 432 792 l 504 792 l h f
+504 720 m 576 720 l 576 792 l h f
+576 720 m 576 792 l 648 792 l h f
+648 720 m 720 720 l 720 792 l h f
+0 792 m 72 792 l 72 864 l h f
+72 792 m 72 864 l 144 864 l h f
+144 792 m 216 792 l 216 864 l h f
+216 792 m 216 864 l 288 864 l h f
+288 792 m 360 792 l 360 864 l h f
+360 792 m 360 864 l 432 864 l h f
+432 792 m 504 792 l 504 864 l h f
+504 792 m 504 864 l 576 864 l h f
+576 792 m 648 792 l 648 864 l h f
+648 792 m 648 864 l 720 864 l h f
+Q
 BT /F2 16 Tf 0.78 0.08 0.08 rg 1 0 0 1 48 754 Tm (KERALA COMPUTER) Tj ET
 BT /F2 16 Tf 0.78 0.08 0.08 rg 1 0 0 1 48 734 Tm (SAKSHARATHA MISSION®) Tj ET
 BT /F2 8.5 Tf 0.78 0.08 0.08 rg 1 0 0 1 48 716 Tm (AN ISO 9001:2015 CERTIFIED INSTITUTION) Tj ET
@@ -30,7 +152,7 @@ BT /F1 8 Tf 0.78 0.08 0.08 rg 1 0 0 1 468 709 Tm (Govt. of India) Tj ET
 0.78 0.08 0.08 rg 48 690 516 2 re f
 BT /F2 14 Tf 0.78 0.08 0.08 rg 1 0 0 1 48 661 Tm (EXAMINATION HALL TICKET) Tj ET
 BT /F2 13 Tf 0.04 0.12 0.30 rg 1 0 0 1 48 638 Tm (Computer Skills Assessment 2026) Tj ET
-BT /F2 9 Tf 0.72 0.16 0.12 rg 1 0 0 1 48 618 Tm (DEMO SAMPLE - FICTIONAL DATA) Tj ET
+BT /F2 8.5 Tf 0.72 0.16 0.12 rg 1 0 0 1 48 618 Tm (Electronically generated sample hall ticket - fictional data) Tj ET
 0.88 0.93 0.99 rg 424 455 132 150 re f
 0.58 0.75 0.91 RG 424 455 132 150 re S
 0.20 0.39 0.68 rg 469 542 m 469 557 481 569 493 569 c 505 569 517 557 517 542 c 517 527 505 515 493 515 c 481 515 469 527 469 542 c f
@@ -50,20 +172,24 @@ BT /F2 9 Tf 0.34 0.43 0.56 rg 1 0 0 1 54 235 Tm (REPORTING TIME) Tj ET
 BT /F1 13 Tf 0.04 0.12 0.30 rg 1 0 0 1 54 213 Tm (10:00 AM) Tj ET
 0.76 0.83 0.91 RG 48 105 m 564 105 l S
 BT /F1 9 Tf 0.30 0.38 0.50 rg 1 0 0 1 48 82 Tm (Please bring this hall ticket and a valid photo ID to the examination.) Tj ET
-BT /F1 9 Tf 0.72 0.16 0.12 rg 1 0 0 1 48 57 Tm (This is a fictional sample ticket for website testing only.) Tj ET
+BT /F1 9 Tf 0.72 0.16 0.12 rg 1 0 0 1 48 57 Tm (Fictional sample ticket created electronically for website testing only.) Tj ET
 endstream
 endobj
+7 0 obj
+<< /Type /ExtGState /ca 0.06 /CA 0.06 >>
+endobj
 xref
-0 7
+0 8
 0000000000 65535 f
 0000000015 00000 n
 0000000064 00000 n
 0000000121 00000 n
-0000000257 00000 n
-0000000354 00000 n
-0000000456 00000 n
+0000000285 00000 n
+0000000382 00000 n
+0000000484 00000 n
+0000007026 00000 n
 trailer
-<< /Size 7 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-2982
+7082
 %%EOF
