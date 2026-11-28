@@ -1,6 +1,12 @@
 {
   "notice": "Temporary demo data only. All candidates and tickets are fictional. Do not store real student records in this public file.",
   "academyName": "Auteves Academy",
+  "issuingOrganization": "Kerala Computer Saksharatha Mission",
+  "certification": "AN ISO 9001:2015 CERTIFIED INSTITUTION",
+  "affiliation": "Associated with Auteves Academy",
+  "partnerOrganization": "Electronic Corporation of India",
+  "partnerDepartment": "Dept. of Atomic Energy",
+  "partnerGovernment": "Govt. of India",
   "heading": "EXAMINATION HALL TICKET",
   "title": "Computer Skills Assessment 2026",
   "students": [
