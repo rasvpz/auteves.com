@@ -1,5 +1,5 @@
 {
-  "notice": "Temporary demo data only. All candidates and tickets are fictional. Do not store real student records in this public file.",
+  "notice": "System Generated Hall Ticket for Students",
   "academyName": "Auteves Academy",
   "issuingOrganization": "Kerala Computer Saksharatha Mission",
   "certification": "AN ISO 9001:2015 CERTIFIED INSTITUTION",
@@ -8,127 +8,20 @@
   "partnerDepartment": "Dept. of Atomic Energy",
   "partnerGovernment": "Govt. of India",
   "heading": "EXAMINATION HALL TICKET",
-  "title": "Computer Skills Assessment 2026",
+  "title": "Course Skills Assessment 2026",
   "students": [
     {
-      "centerCode": "AUE001",
-      "regNo": "AUA2026001",
-      "candidateName": "Aarav Menon",
-      "courseName": "Full Stack Web Development",
-      "examTitle": "Computer Skills Assessment 2026",
+      "centerCode": "B201",
+      "regNo": "27027",
+      "candidateName": "Fathimathul Muhsina",
+      "courseName": "CFA",
+      "examTitle": "CERTIFIED FINANCIAL ACCOUNTANT 2026",
       "photo": "assets/studentsData/AUA2026001.svg",
-      "ticketPath": "assets/studentsData/AUA2026001.pdf",
+      "ticketPath": "assets/studentsData/hallTicket27027.pdf",
       "fileName": "AUA2026001-Hall-Ticket.pdf",
       "examDate": "2026-12-15",
       "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE001",
-      "regNo": "AUA2026002",
-      "candidateName": "Diya Nair",
-      "courseName": "Python Programming",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026002.svg",
-      "ticketPath": "assets/studentsData/AUA2026002.pdf",
-      "fileName": "AUA2026002-Hall-Ticket.pdf",
-      "examDate": "2026-12-15",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE001",
-      "regNo": "AUA2026003",
-      "candidateName": "Kabir Thomas",
-      "courseName": "Java Programming",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026003.svg",
-      "ticketPath": "assets/studentsData/AUA2026003.pdf",
-      "fileName": "AUA2026003-Hall-Ticket.pdf",
-      "examDate": "2026-12-15",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE001",
-      "regNo": "AUA2026004",
-      "candidateName": "Mira Joseph",
-      "courseName": "Data Analytics",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026004.svg",
-      "ticketPath": "assets/studentsData/AUA2026004.pdf",
-      "fileName": "AUA2026004-Hall-Ticket.pdf",
-      "examDate": "2026-12-15",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE002",
-      "regNo": "AUA2026005",
-      "candidateName": "Ishan Kumar",
-      "courseName": "Tally Prime and GST",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026005.svg",
-      "ticketPath": "assets/studentsData/AUA2026005.pdf",
-      "fileName": "AUA2026005-Hall-Ticket.pdf",
-      "examDate": "2026-12-16",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE002",
-      "regNo": "AUA2026006",
-      "candidateName": "Anya Das",
-      "courseName": "Accounting Fundamentals",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026006.svg",
-      "ticketPath": "assets/studentsData/AUA2026006.pdf",
-      "fileName": "AUA2026006-Hall-Ticket.pdf",
-      "examDate": "2026-12-16",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE002",
-      "regNo": "AUA2026007",
-      "candidateName": "Rohan Varghese",
-      "courseName": "Computer Hardware and Networking",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026007.svg",
-      "ticketPath": "assets/studentsData/AUA2026007.pdf",
-      "fileName": "AUA2026007-Hall-Ticket.pdf",
-      "examDate": "2026-12-16",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE002",
-      "regNo": "AUA2026008",
-      "candidateName": "Sara Paul",
-      "courseName": "React.js Development",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026008.svg",
-      "ticketPath": "assets/studentsData/AUA2026008.pdf",
-      "fileName": "AUA2026008-Hall-Ticket.pdf",
-      "examDate": "2026-12-16",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE003",
-      "regNo": "AUA2026009",
-      "candidateName": "Neil Mathew",
-      "courseName": "Digital Marketing",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026009.svg",
-      "ticketPath": "assets/studentsData/AUA2026009.pdf",
-      "fileName": "AUA2026009-Hall-Ticket.pdf",
-      "examDate": "2026-12-17",
-      "examTime": "10:00 AM"
-    },
-    {
-      "centerCode": "AUE003",
-      "regNo": "AUA2026010",
-      "candidateName": "Tara Pillai",
-      "courseName": "UI/UX Design",
-      "examTitle": "Computer Skills Assessment 2026",
-      "photo": "assets/studentsData/AUA2026010.svg",
-      "ticketPath": "assets/studentsData/AUA2026010.pdf",
-      "fileName": "AUA2026010-Hall-Ticket.pdf",
-      "examDate": "2026-12-17",
-      "examTime": "10:00 AM"
     }
+
   ]
 }
